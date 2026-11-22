@@ -17,18 +17,13 @@ Vianočná úloha - zvonce
             display: flex;
             justify-content: center;
             align-items: center;
-            background: #D3D3D3;
+            background: #4A4A4A;
             font-family: Arial, sans-serif;
+            font
         }
 
         .container {
             width: min(90vw, 450px);
-        }
-
-        h1 {
-            color: white;
-            text-align: center;
-            margin-bottom: 25px;
         }
 
         .grid {
@@ -50,15 +45,15 @@ Vianočná úloha - zvonce
             transform: scale(0.92);
         }
 
-        .square:nth-child(1) { background: #C8102E; }
-        .square:nth-child(2) { background: #C0172A; }
-        .square:nth-child(3) { background: #1E5631; }
-        .square:nth-child(4) { background: #1A3D2B; }
-        .square:nth-child(5) { background: #D4AF37; }
-        .square:nth-child(6) { background: #6B3A1F; }
-        .square:nth-child(7) { background: #0D1B2A; }
-        .square:nth-child(8) { background: #C0C0C0; }
-        .square:nth-child(9) { background: #FFFFFF; }
+        .square:nth-child(1) { background: #FF0000; }
+        .square:nth-child(2) { background: #DC143C; }
+        .square:nth-child(3) { background: #8B0000; }
+        .square:nth-child(4) { background: #008000; }
+        .square:nth-child(5) { background: #228B22; }
+        .square:nth-child(6) { background: #32CD32; }
+        .square:nth-child(7) { background: #FFD700; }
+        .square:nth-child(8) { background: #D4AF37; }
+        .square:nth-child(9) { background: #CFB53B; }
     </style>
 </head>
 
@@ -67,15 +62,15 @@ Vianočná úloha - zvonce
     <div class="container">
 
         <div class="grid">
-            <button class="square" aria-label="1" onclick="playTone(261.63)"></button>
-            <button class="square" aria-label="2" onclick="playTone(293.66)"></button>
-            <button class="square" aria-label="3" onclick="playTone(329.63)"></button>
-            <button class="square" aria-label="4" onclick="playTone(349.23)"></button>
-            <button class="square" aria-label="5" onclick="playTone(392.00)"></button>
-            <button class="square" aria-label="6" onclick="playTone(440.00)"></button>
-            <button class="square" aria-label="7" onclick="playTone(493.88)"></button>
-            <button class="square" aria-label="8" onclick="playTone(523.25)"></button>
-            <button class="square" aria-label="9" onclick="playTone(587.33)"></button>
+            <button class="square" aria-label="1" onclick="playTone(261.63)">1</button>
+            <button class="square" aria-label="2" onclick="playTone(293.66)">2</button>
+            <button class="square" aria-label="3" onclick="playTone(329.63)">3</button>
+            <button class="square" aria-label="4" onclick="playTone(349.23)">4</button>
+            <button class="square" aria-label="5" onclick="playTone(392.00)">5</button>
+            <button class="square" aria-label="6" onclick="playTone(440.00)">6</button>
+            <button class="square" aria-label="7" onclick="playTone(493.88)">7</button>
+            <button class="square" aria-label="8" onclick="playTone(523.25)">8</button>
+            <button class="square" aria-label="9" onclick="playTone(587.33)">9</button>
         </div>
     </div>
 
