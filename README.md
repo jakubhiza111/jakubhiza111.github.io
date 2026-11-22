@@ -1,2 +1,2 @@
-# jakubhiza111.github.io
-vianocny projekt - zvonce
+Jakub Hiža
+Vianočná úloha - zvonce
