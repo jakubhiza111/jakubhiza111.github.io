@@ -17,7 +17,7 @@ Vianočná úloha - zvonce
             display: flex;
             justify-content: center;
             align-items: center;
-            background: #202020;
+            background: #D3D3D3;
             font-family: Arial, sans-serif;
         }
 
@@ -50,33 +50,32 @@ Vianočná úloha - zvonce
             transform: scale(0.92);
         }
 
-        .square:nth-child(1) { background: #ef5350; }
-        .square:nth-child(2) { background: #ffa726; }
-        .square:nth-child(3) { background: #ffee58; }
-        .square:nth-child(4) { background: #66bb6a; }
-        .square:nth-child(5) { background: #26a69a; }
-        .square:nth-child(6) { background: #42a5f5; }
-        .square:nth-child(7) { background: #5c6bc0; }
-        .square:nth-child(8) { background: #ab47bc; }
-        .square:nth-child(9) { background: #ec407a; }
+        .square:nth-child(1) { background: #C8102E; }
+        .square:nth-child(2) { background: #C0172A; }
+        .square:nth-child(3) { background: #1E5631; }
+        .square:nth-child(4) { background: #1A3D2B; }
+        .square:nth-child(5) { background: #D4AF37; }
+        .square:nth-child(6) { background: #6B3A1F; }
+        .square:nth-child(7) { background: #0D1B2A; }
+        .square:nth-child(8) { background: #C0C0C0; }
+        .square:nth-child(9) { background: #FFFFFF; }
     </style>
 </head>
 
 <body>
 
     <div class="container">
-        <h1>Sound Pad</h1>
 
         <div class="grid">
-            <button class="square" aria-label="Tón C4" onclick="playTone(261.63)"></button>
-            <button class="square" aria-label="Tón D4" onclick="playTone(293.66)"></button>
-            <button class="square" aria-label="Tón E4" onclick="playTone(329.63)"></button>
-            <button class="square" aria-label="Tón F4" onclick="playTone(349.23)"></button>
-            <button class="square" aria-label="Tón G4" onclick="playTone(392.00)"></button>
-            <button class="square" aria-label="Tón A4" onclick="playTone(440.00)"></button>
-            <button class="square" aria-label="Tón B4" onclick="playTone(493.88)"></button>
-            <button class="square" aria-label="Tón C5" onclick="playTone(523.25)"></button>
-            <button class="square" aria-label="Tón D5" onclick="playTone(587.33)"></button>
+            <button class="square" aria-label="1" onclick="playTone(261.63)"></button>
+            <button class="square" aria-label="2" onclick="playTone(293.66)"></button>
+            <button class="square" aria-label="3" onclick="playTone(329.63)"></button>
+            <button class="square" aria-label="4" onclick="playTone(349.23)"></button>
+            <button class="square" aria-label="5" onclick="playTone(392.00)"></button>
+            <button class="square" aria-label="6" onclick="playTone(440.00)"></button>
+            <button class="square" aria-label="7" onclick="playTone(493.88)"></button>
+            <button class="square" aria-label="8" onclick="playTone(523.25)"></button>
+            <button class="square" aria-label="9" onclick="playTone(587.33)"></button>
         </div>
     </div>
 
