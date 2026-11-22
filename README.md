@@ -17,7 +17,7 @@ Vianočná úloha - zvonce
             display: flex;
             justify-content: center;
             align-items: center;
-            background: #4A4A4A;
+            background: #E6F8F6;
             font-family: Arial, sans-serif;
             font
         }
